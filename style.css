@@ -23,6 +23,11 @@ html{
 
     }
 
+    .small{
+        font-size: 2rem;
+        color: grey;
+    }
+
 /* --------- utility classes ends ---------- */
 
 nav{
@@ -33,7 +38,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.1rem 0;
+    /* padding: 0.1rem 0; */
 }
 
 .links i{
@@ -42,9 +47,16 @@ nav{
     font-size: 2.8rem;
 }
 
-.logo img{
-    width: 8.5rem;
+.logo a{
+    text-decoration: none;
+    text-align: center;
+    color: green;
 }
+
+.logo img{
+    width: 8rem;
+}
+
 
 .links{
     display: flex;
@@ -98,7 +110,7 @@ nav{
 .main_container h1{
     text-align: center;
     font-size: 3.5rem;
-    line-height: 1.4;
+    line-height: 1.2;
     margin-bottom: 3.5rem;
 }
 
@@ -259,14 +271,14 @@ nav{
 /* -------------- footer -------------- */
 
 .footer{
-    background-color: #dd4c4c24;
+    background-color: #dd4c4c15;
 }
 
 .footer_container{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 3.5rem 0;
+    padding: 2.5rem 0;
 }
 
 .foolter_ul h2, .third_ul h2{
@@ -341,7 +353,16 @@ nav{
     border-radius: 2.5rem;
     border: none;
     outline: none;
-    width: 95%;
+    width: 75%;
+    margin-right: 1rem;
+}
+
+.fourth i{
+    font-size: 2.5rem;
+}
+
+.fourth i:active{
+    transform: scale(1.08);
 }
 
 .top{
@@ -418,17 +439,21 @@ nav{
     }
 
     section,footer{
-        padding: 0 1.5rem;
+        padding: 0 1.2rem;
     }
 
     .masala_img img{
-        width:95%
+        width:100%
         
+    }
+
+    .masala_cont{
+        padding: unset;
     }
 
     .footer_container{
         flex-direction: column;
-       /* align-items:center; */
+        padding: 1.5rem 2rem;
     }
 
     .foolter_ul h2, .third_ul h2{
@@ -470,5 +495,22 @@ nav{
     
     .masala_link h3{
         font-size: 3rem;
+    }
+
+    .single_right p{
+        font-size: 2rem;
+        text-align: justify;
+    }
+
+    .cards h3{
+        font-size: 2.2rem;
+    }
+    
+    .cards p{
+        font-size: 1.8rem;
+    }
+
+    .card_container{
+        padding: 1.8rem 2.5rem;
     }
 }

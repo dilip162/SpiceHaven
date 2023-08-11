@@ -11,10 +11,16 @@ html {
   font-size: 62.5%;
 }
 
+:root {
+  --themeColor: #049c3c;
+}
+
 /* --------- utility classes starts ---------- */
 
 .textSpan {
-  color: red;
+  color: var(--themeColor);
+  font-size: 3.8rem;
+  font-weight: 600;
 }
 
 .custom_cont {
@@ -80,7 +86,7 @@ nav {
 }
 
 .links ul li a:hover {
-  color: red;
+  color: var(--themeColor);
 }
 
 /* ----------- carousel starts ------------ */
@@ -186,7 +192,7 @@ nav {
   padding: 0.8rem 2.5rem;
   font-size: 1.8rem;
   color: white;
-  background-color: #ff0000;
+  background-color: var(--themeColor);
   text-decoration: none;
   border-radius: 2rem;
   margin-right: 1rem;
@@ -244,7 +250,7 @@ nav {
 }
 
 .masala_link:hover {
-  color: red;
+  color: var(--themeColor);
 }
 
 .masala_img img {
@@ -261,7 +267,7 @@ nav {
 /* -------------- footer -------------- */
 
 .footer {
-  background-color: #dd4c4c15;
+  background-color: rgba(219, 211, 211, 0.503);
 }
 
 .footer_container {
@@ -273,8 +279,8 @@ nav {
 
 .foolter_ul h2,
 .third_ul h2 {
-  font-size: 2.4rem;
-  color: navy;
+  font-size: 2rem;
+  color: rgb(51, 51, 203);
   margin-bottom: 1.5rem;
 }
 
@@ -330,7 +336,7 @@ i {
 }
 
 .fourth h4 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   margin-bottom: 1.5rem;
   color: rgb(76, 74, 74);
 }

@@ -1,372 +1,449 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SpiceHaven</title>
 
     <!-- ---------- Bootstrap Css ----------------- -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    />
 
     <!-- -------------- swipper css ---------------------- -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
 
     <!-- ------------ Custom CSS -------------- -->
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style.css" />
 
     <!-- ---------------- Custom Js ----------------- -->
     <script src="/script.js" defer></script>
 
-    <link rel="shortcut icon" href="/images/logos.png" type="image/x-icon">
-</head>
-<body>
+    <link rel="shortcut icon" href="/images/logos.png" type="image/x-icon" />
+  </head>
+  <body>
     <header>
-        <nav id="nav">
-            <div class="nav_container container">
-                <div class="logo">
-                    <a href="#"><img src="/images/logos.png" alt=""><h4>Swarn Satya</h4></a>
-                </div>
-               
-                <div class="links">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Products</a></li>
-                        <li><a href="#">Dealers</a></li>
-                        <li><a href="#">Contact us</a></li>
-                    </ul>
-                    <i class="fa-solid fa-bars fa-2xl"></i>
-                </div>
-            </div>
-        </nav>
+      <nav id="nav">
+        <div class="nav_container container">
+          <div class="logo">
+            <a href="#"
+              ><img src="/images/logos.png" alt="" />
+              <h4>Swarn Satya</h4></a
+            >
+          </div>
 
-        <div class="swipper">
-            <div class="swipper_container">
-                <!-- Swiper -->
-                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="images/slide2.jpg" class="d-block w-100" alt="...">                        
-                      </div>
-
-                      <div class="carousel-item">
-                        <img src="images/slide1.jpg" class="d-block w-100" alt="...">
-                      </div>
-
-                      <div class="carousel-item">
-                        <img src="images/slide3.jpg" class="d-block w-100" alt="...">
-                      </div>
-
-                      <div class="carousel-item">
-                        <img src="images/slide4.jpg" class="d-block w-100" alt="...">
-                      </div>
-
-                      <div class="carousel-item">
-                        <img src="images/slide8.jpg" class="d-block w-100" alt="...">
-                      </div>
-
-                      <div class="carousel-item">
-                        <img src="images/slide6.jpg" class="d-block w-100" alt="...">
-                      </div>
-
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-            </div>
+          <div class="links">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Dealers</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+            <i class="fa-solid fa-bars fa-2xl"></i>
+          </div>
         </div>
+      </nav>
+
+      <div class="swipper">
+        <div class="swipper_container">
+          <!-- Swiper -->
+          <div
+            id="carouselExampleAutoplaying"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/slide2.jpg" class="d-block w-100" alt="..." />
+              </div>
+
+              <div class="carousel-item">
+                <img src="images/slide1.jpg" class="d-block w-100" alt="..." />
+              </div>
+
+              <div class="carousel-item">
+                <img src="images/slide3.jpg" class="d-block w-100" alt="..." />
+              </div>
+
+              <div class="carousel-item">
+                <img src="images/slide4.jpg" class="d-block w-100" alt="..." />
+              </div>
+
+              <div class="carousel-item">
+                <img src="images/slide8.jpg" class="d-block w-100" alt="..." />
+              </div>
+
+              <div class="carousel-item">
+                <img src="images/slide6.jpg" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
     </header>
 
     <section class="main">
-        <div class="main_container container">
-            <h1>Discover the world of Exotic and Authentic Spices from <span class="textSpan">Swarn Satya</span><br><span class="small">- Kyunki Khana Sirf Khana Nahi Hota</span></h1>
+      <div class="main_container container">
+        <h1>
+          Discover the world of Exotic and Authentic Spices from
+          <span class="textSpan">Swarn Satya</span><br /><span class="small"
+            >- Kyunki Khana Sirf Khana Nahi Hota</span
+          >
+        </h1>
 
-                <div class="row">
+        <div class="row">
+          <div class="card_container col-md-4">
+            <div class="cards">
+              <img src="/images/leaves red.png" alt="" />
+              <h3>Sourced From Best Farms</h3>
+              <p>
+                SpiceHaven are sourced from the prime spice growing locations to
+                ensure the highest quality
+              </p>
+            </div>
+          </div>
 
-                    <div class="card_container col-md-4">
-                        <div class="cards">
-                            <img src="/images/leaves red.png" alt="">                           
-                            <h3>Sourced From Best Farms</h3>
-                            <p>SpiceHaven are sourced from the prime spice growing locations to ensure the highest quality</p>
-                        </div>                        
-                    </div>
+          <div class="card_container col-md-4">
+            <div class="cards">
+              <img src="/images/safe red.png" alt="" />
+              <h3>Packed Hygienically</h3>
+              <p>
+                SpiceHaven spices are packed using state of the art equipment
+                ensuring minimal human contact
+              </p>
+            </div>
+          </div>
 
-                    <div class="card_container col-md-4">
-                        <div class="cards">
-                            <img src="/images/safe red.png" alt="">
-                            <h3>Packed Hygienically</h3>
-                            <p>SpiceHaven spices are packed using state of the art equipment ensuring minimal human contact</p>
-                        </div>                        
-                    </div>
-
-                    <div class="card_container col-md-4">
-                        <div class="cards">
-                            <img src="/images/mortar red.png" alt="">
-                            <h3>LTG</h3>
-                            <p>Low Temperature Grinding. LTG ensures better retention of natural oils & flavours in the spice</p>
-                        </div>                        
-                    </div>
-                </div>           
+          <div class="card_container col-md-4">
+            <div class="cards">
+              <img src="/images/mortar red.png" alt="" />
+              <h3>LTG</h3>
+              <p>
+                Low Temperature Grinding. LTG ensures better retention of
+                natural oils & flavours in the spice
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
-
     <section class="oneProduct">
-        <div class="oneProduct_cont container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 single_product">
-                    <div class="single_pic">
-                        <img src="/images/luckyMasale.png" alt="">
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-md-12 single_right">
-                    <h2>INDIAN COOKING MADE EASY</h2>
-                    <p>Our spice blends or masalas make cooking Indian cuisine very simple. We diligently pick and select the best quality whole spices from the best fields in India to manufacture our blends. All our products come with multiple recipes.</p>
-
-                    <div class="btns">
-                        <a href="#" class="butn">Read more</a>
-                        <a href="#" class="butn">View Cateloge</a>
-                    </div>
-                </div>
+      <div class="oneProduct_cont container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 single_product">
+            <div class="single_pic">
+              <img src="/images/ss2.png" alt="" />
             </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12 single_right">
+            <h2>INDIAN SNACKS MADE EASY</h2>
+            <p>
+              Indulge in nature's finest with our premium selection of exquisite
+              dry fruits. Elevate your snacking experience with rich flavors,
+              wholesome goodness, and impeccable quality. Savor the health
+              benefits and culinary delights as you embrace the natural essence
+              of our handpicked offerings. Discover true indulgence, one bite at
+              a time.
+            </p>
+
+            <div class="btns">
+              <a href="#" class="butn">Read more</a>
+              <a href="#" class="butn">View Cateloge</a>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="product_carosel">
-        <div class="product_carosel_cont container">
-
-
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-
-                  <div class="carousel-item active">
-
-                    <div class="row">
-                        <div class="col-sm-6 single_right">
-                            <h2>Lorem Ipsum</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias at repellat, sed tenetur provident facere inventore animi eius pariatur saepe rem ad rerum possimus, sequi nesciunt sunt fugit ab tempore in deserunt? Distinctio maxime similique molestiae placeat necessitatibus aut consectetur?</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="img_cont">
-                                <img src="/images/masale.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-
-                  </div>
-
-                  <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-sm-6 single_right">
-                            <h2>Lorem Ipsum</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias at repellat, sed tenetur provident facere inventore animi eius pariatur saepe rem ad rerum possimus, sequi nesciunt sunt fugit ab tempore in deserunt? Distinctio maxime similique molestiae placeat necessitatibus aut consectetur?</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="img_cont">
-                                <img src="/images/matcha.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                  </div>
-
-
-                  <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-sm-6 single_right">
-                            <h2>Lorem Ipsum</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias at repellat, sed tenetur provident facere inventore animi eius pariatur saepe rem ad rerum possimus, sequi nesciunt sunt fugit ab tempore in deserunt? Distinctio maxime similique molestiae placeat necessitatibus aut consectetur?</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="img_cont">
-                                <img src="/images/tea.png" alt="">
-                            </div>
-                        </div>
-                    </div>
+      <div class="product_carosel_cont container">
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-sm-6 single_right">
+                  <h2>Makhana</h2>
+                  <p>
+                    Elevate your snacking with our premium makhana, sourced for
+                    unrivaled quality and taste. Delight in guilt-free, crunchy
+                    goodness that's rich in nutrients. Indulge your senses and
+                    savor the perfect blend of health and flavor. Experience the
+                    exquisite delight of our handpicked makhana. Your journey to
+                    wholesome snacking begins here.
+                  </p>
+                </div>
+                <div class="col-sm-6">
+                  <div class="img_cont">
+                    <img src="/images/ss1.png" alt="" />
                   </div>
                 </div>
+              </div>
             </div>
 
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-sm-6 single_right">
+                  <h2>Mixed Dry Fruits</h2>
+                  <p>
+                    Experience a symphony of flavors with our exquisite mixed
+                    dry fruits, meticulously crafted for perfection in every
+                    bite. Elevate your snacking moments with a harmonious blend
+                    of premium nuts and fruits, curated to indulge your senses
+                    and nourish your body. Unveil the essence of gourmet
+                    snacking, all in one irresistible packet.
+                  </p>
+                </div>
+                <div class="col-sm-6">
+                  <div class="img_cont">
+                    <img src="/images/ss2.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
 
-
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-sm-6 single_right">
+                  <h2>Raisins</h2>
+                  <p>
+                    Pluck the finest pleasures from nature's vine with our
+                    premium raisins. Bursting with succulent sweetness and
+                    unparalleled quality, each raisin is a treasure trove of
+                    health benefits. Elevate your palate and embrace the
+                    richness of our handpicked raisins. Taste the pure essence
+                    of nature's goodness in every bite.
+                  </p>
+                </div>
+                <div class="col-sm-6">
+                  <div class="img_cont">
+                    <img src="/images/ss3.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="masale_list">
-        <div class="masale_list_cont custom_cont">
-            <h1>Swarn Satya Spice Mix</h1>
+      <div class="masale_list_cont custom_cont">
+        <h1>Swarn Satya Spice Mix</h1>
 
-            <div class="masala_cont">
-
-                <a href="#" class="masala_link">
-                    <div class="masala_img">
-                        <img src="/images/slide2.jpg" alt="">
-                    </div>
-                    <h3>Chant Masala</h3>
-                </a>
-                
-                <a href="#" class="masala_link">
-                    <div class="masala_img">
-                        <img src="/images/slide1.jpg" alt="">
-                    </div>
-                    <h3>Chant Masala</h3>
-                </a>
-
-                <a href="#" class="masala_link">
-                    <div class="masala_img">
-                        <img src="/images/slide3.jpg" alt="">
-                    </div>
-                    <h3>Chant Masala</h3>
-                </a>
-
-                <a href="#" class="masala_link">
-                    <div class="masala_img">
-                        <img src="/images/slide4.jpg" alt="">
-                    </div>
-                    <h3>Chant Masala</h3>
-                </a>
-
-                <a href="#" class="masala_link">
-                    <div class="masala_img">
-                        <img src="/images/slide5.jpg" alt="">
-                    </div>
-                    <h3>Chant Masala</h3>
-                </a>
-
-                <a href="#" class="masala_link">
-                    <div class="masala_img">
-                        <img src="/images/slide6.jpg" alt="">
-                    </div>
-                    <h3>Chant Masala</h3>
-                </a>
-
-                <a href="#" class="masala_link">
-                    <div class="masala_img">
-                        <img src="/images/slide7.jpg" alt="">
-                    </div>
-                    <h3>Chant Masala</h3>
-                </a>
-
-                <a href="#" class="masala_link">
-                    <div class="masala_img">
-                        <img src="/images/slide8.jpg" alt="">
-                    </div>
-                    <h3>Chant Masala</h3>
-                </a>
-
-                <a href="#" class="masala_link">
-                    <div class="masala_img">
-                        <img src="/images/slide3.jpg" alt="">
-                    </div>
-                    <h3>Chant Masala</h3>
-                </a>
-
-                <a href="#" class="masala_link">
-                    <div class="masala_img">
-                        <img src="/images/slide5.jpg" alt="">
-                    </div>
-                    <h3>Chant Masala</h3>
-                </a>
-
-                <a href="#" class="masala_link">
-                    <div class="masala_img">
-                        <img src="/images/slide6.jpg" alt="">
-                    </div>
-                    <h3>Chant Masala</h3>
-                </a>
-
-                <a href="#" class="masala_link">
-                    <div class="masala_img">
-                        <img src="/images/slide4.jpg" alt="">
-                    </div>
-                    <h3>Chant Masala</h3>
-                </a>
-
-                <a href="#" class="masala_link">
-                    <div class="masala_img">
-                        <img src="/images/slide3.jpg" alt="">
-                    </div>
-                    <h3>Chant Masala</h3>
-                </a>
-
-                <a href="#" class="masala_link">
-                    <div class="masala_img">
-                        <img src="/images/slide2.jpg" alt="">
-                    </div>
-                    <h3>Chant Masala</h3>
-                </a>
-
-                <a href="#" class="masala_link">
-                    <div class="masala_img">
-                        <img src="/images/slide1.jpg" alt="">
-                    </div>
-                    <h3>Chant Masala</h3>
-                </a>
-
+        <div class="masala_cont">
+          <a href="#" class="masala_link">
+            <div class="masala_img">
+              <img src="/images/slide2.jpg" alt="" />
             </div>
+            <h3>Makhana</h3>
+          </a>
+
+          <a href="#" class="masala_link">
+            <div class="masala_img">
+              <img src="/images/slide1.jpg" alt="" />
+            </div>
+            <h3>Chant Masala</h3>
+          </a>
+
+          <a href="#" class="masala_link">
+            <div class="masala_img">
+              <img src="/images/slide3.jpg" alt="" />
+            </div>
+            <h3>Chant Masala</h3>
+          </a>
+
+          <a href="#" class="masala_link">
+            <div class="masala_img">
+              <img src="/images/slide4.jpg" alt="" />
+            </div>
+            <h3>Chant Masala</h3>
+          </a>
+
+          <a href="#" class="masala_link">
+            <div class="masala_img">
+              <img src="/images/slide5.jpg" alt="" />
+            </div>
+            <h3>Chant Masala</h3>
+          </a>
+
+          <a href="#" class="masala_link">
+            <div class="masala_img">
+              <img src="/images/slide6.jpg" alt="" />
+            </div>
+            <h3>Chant Masala</h3>
+          </a>
+
+          <a href="#" class="masala_link">
+            <div class="masala_img">
+              <img src="/images/slide7.jpg" alt="" />
+            </div>
+            <h3>Chant Masala</h3>
+          </a>
+
+          <a href="#" class="masala_link">
+            <div class="masala_img">
+              <img src="/images/slide8.jpg" alt="" />
+            </div>
+            <h3>Chant Masala</h3>
+          </a>
+
+          <a href="#" class="masala_link">
+            <div class="masala_img">
+              <img src="/images/slide3.jpg" alt="" />
+            </div>
+            <h3>Chant Masala</h3>
+          </a>
+
+          <a href="#" class="masala_link">
+            <div class="masala_img">
+              <img src="/images/slide5.jpg" alt="" />
+            </div>
+            <h3>Chant Masala</h3>
+          </a>
+
+          <a href="#" class="masala_link">
+            <div class="masala_img">
+              <img src="/images/slide6.jpg" alt="" />
+            </div>
+            <h3>Chant Masala</h3>
+          </a>
+
+          <a href="#" class="masala_link">
+            <div class="masala_img">
+              <img src="/images/slide4.jpg" alt="" />
+            </div>
+            <h3>Chant Masala</h3>
+          </a>
+
+          <a href="#" class="masala_link">
+            <div class="masala_img">
+              <img src="/images/slide3.jpg" alt="" />
+            </div>
+            <h3>Chant Masala</h3>
+          </a>
+
+          <a href="#" class="masala_link">
+            <div class="masala_img">
+              <img src="/images/slide2.jpg" alt="" />
+            </div>
+            <h3>Chant Masala</h3>
+          </a>
+
+          <a href="#" class="masala_link">
+            <div class="masala_img">
+              <img src="/images/slide1.jpg" alt="" />
+            </div>
+            <h3>Chant Masala</h3>
+          </a>
         </div>
+      </div>
     </section>
 
     <footer class="footer">
-        <div class="footer_container container">
-
-            <div class="first">
-                <div class="footer_logo">
-                    <a href="#"><img src="/images/logos.png" alt=""></a>
-                </div>
-                <h4>Making your meal delicious !!</h4>
-                <p>Copyright © 2020 All Rights Reserved</p>
-            </div>
-
-            <div class="second foolter_ul">
-                <h2>Links</h2>
-                
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Testimonials</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Promotions</a></li>
-                    <li><a href="#">Download Cataloge</a></li>
-                
-            </div>
-
-            <div class="third third_ul">
-                <h2>Follow Us</h2>
-                
-                    <li><a href="#"><i class="fa-brands fa-square-facebook fa-2xl"></i> Facebook</a></li>
-                    <li><a href="#"><i class="fa-brands fa-square-twitter fa-2xl"></i>Twitter</a></li>
-                    <li><a href="#"> <i class="fa-brands fa-square-pinterest fa-2xl"></i>Pinterest</a></li>
-                    <li><a href="#"><i class="fa-brands fa-square-youtube fa-2xl"></i>YouTube</a></li>
-                 
-            </div>
-
-            <div class="fourth third_ul">
-                <h2>STAY IN TOUCH</h2>
-                <h4>Enter your email address for Subscribe</h4>
-                <input type="text" placeholder="Enter Email*">
-                <i class="fa-regular fa-paper-plane fa-2xl"></i>
-            </div>
+      <div class="footer_container container">
+        <div class="first">
+          <div class="footer_logo">
+            <a href="#"><img src="/images/logos.png" alt="" /></a>
+          </div>
+          <h4>Making your meal delicious !!</h4>
+          <p>Copyright © 2020 All Rights Reserved</p>
         </div>
+
+        <div class="second foolter_ul">
+          <h2>Links</h2>
+
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Promotions</a></li>
+          <li><a href="#">Download Cataloge</a></li>
+        </div>
+
+        <div class="third third_ul">
+          <h2>Follow Us</h2>
+
+          <li>
+            <a href="#"
+              ><i class="fa-brands fa-square-facebook fa-2xl"></i> Facebook</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-brands fa-square-twitter fa-2xl"></i>Twitter</a
+            >
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-square-pinterest fa-2xl"></i>Pinterest</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-brands fa-square-youtube fa-2xl"></i>YouTube</a
+            >
+          </li>
+        </div>
+
+        <div class="fourth third_ul">
+          <h2>STAY IN TOUCH</h2>
+          <h4>Enter your email address for Subscribe</h4>
+          <input type="text" placeholder="Enter Email*" />
+          <i class="fa-regular fa-paper-plane fa-2xl"></i>
+        </div>
+      </div>
     </footer>
 
+    <a href="#nav" class="top"
+      ><i class="fa-solid fa-up-long fa-2xl" style="color: #ac3131"></i
+    ></a>
 
-    <a href="#nav" class="top"><i class="fa-solid fa-up-long fa-2xl" style="color: #ac3131;"></i></a>
-
-    
     <!-- -------- Bootstrap Js --------------- -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- ---------------- font awesome Js ------------------ -->
-    <script src="https://kit.fontawesome.com/91f2082c15.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/91f2082c15.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- -------------- swipper Js --------------------------- -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-</body>
+  </body>
 </html>

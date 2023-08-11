@@ -1,516 +1,509 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
 
 /* --------- utility classes starts ---------- */
 
-    .textSpan{
-        color: red;
-    }
+.textSpan {
+  color: red;
+}
 
-    .custom_cont{
-        max-width: 1450px;
-        margin: 0 auto;
+.custom_cont {
+  max-width: 1450px;
+  margin: 0 auto;
+}
 
-    }
-
-    .small{
-        font-size: 2rem;
-        color: grey;
-    }
+.small {
+  font-size: 2rem;
+  color: grey;
+}
 
 /* --------- utility classes ends ---------- */
 
-nav{
-    background-color: whitesmoke;
+nav {
+  background-color: whitesmoke;
 }
 
-.nav_container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* padding: 0.1rem 0; */
+.nav_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 0.1rem 0; */
 }
 
-.links i{
-    display: none;
-    color: #505050;
-    font-size: 2.8rem;
+.links i {
+  display: none;
+  color: #505050;
+  font-size: 2.8rem;
 }
 
-.logo a{
-    text-decoration: none;
-    text-align: center;
-    color: green;
+.logo a {
+  text-decoration: none;
+  text-align: center;
+  color: green;
 }
 
-.logo img{
-    width: 8rem;
+.logo img {
+  width: 8rem;
 }
 
-
-.links{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.links ul{
-    display: flex;
-    align-items: center;
-    list-style: none;
+.links ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
 }
 
-.links ul li{
-    margin-right: 1.8rem;
+.links ul li {
+  margin-right: 1.8rem;
 }
 
-.links ul li a{
-    text-decoration: none;
-    font-size: 1.8rem;
-    color: #313030;
-    font-weight: 500;
+.links ul li a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #313030;
+  font-weight: 500;
 }
 
-.links ul li a:hover{
-    color: red;
+.links ul li a:hover {
+  color: red;
 }
 
-    /* ----------- carousel starts ------------ */
+/* ----------- carousel starts ------------ */
 
-    .carousel-item img{
-        height: 60rem;
-        object-fit: cover;
-    }
-    
+.carousel-item img {
+  height: 60rem;
+  object-fit: cover;
+}
 
-    /* ----------- carousel endss ------------ */
-
+/* ----------- carousel endss ------------ */
 
 /* ---------------- main starts ---------------- */
 
-.main{
-    background-color: whitesmoke;
+.main {
+  background-color: whitesmoke;
 }
 
-.main_container{
-    padding: 3rem 0;
-    
+.main_container {
+  padding: 3rem 0;
 }
 
-.main_container h1{
-    text-align: center;
-    font-size: 3.5rem;
-    line-height: 1.2;
-    margin-bottom: 3.5rem;
+.main_container h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  line-height: 1.2;
+  margin-bottom: 3.5rem;
 }
 
-.card_container{
-    padding: 1rem;
-    transition: all 0.4s ease-in-out;
-    border-radius: 0.8rem;
+.card_container {
+  padding: 1rem;
+  transition: all 0.4s ease-in-out;
+  border-radius: 0.8rem;
 }
 
-.card_container:hover{
-    transform: translateY(-0.7rem);
-    background-color: rgba(211, 208, 208, 0.227);
+.card_container:hover {
+  transform: translateY(-0.7rem);
+  background-color: rgba(211, 208, 208, 0.227);
 }
 
-.cards{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.cards h3{
-    margin: 0.8rem 0;
+.cards h3 {
+  margin: 0.8rem 0;
 }
 
-.cards p{
-    text-align: center;
-    font-size: 1.4rem;
-    color: rgb(100, 98, 98);
+.cards p {
+  text-align: center;
+  font-size: 1.4rem;
+  color: rgb(100, 98, 98);
 }
 
-.cards img{
-    width: 8rem;
+.cards img {
+  width: 8rem;
 }
-
 
 /* ---------------- main ends ---------------- */
 
-.oneProduct{
-   background-color: whitesmoke;
+.oneProduct {
+  background-color: whitesmoke;
 }
 
-.oneProduct_cont{
-    padding: 3.5rem 0;
+.oneProduct_cont {
+  padding: 3.5rem 0;
 }
 
-.single_pic{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-  
-.single_pic img{
-   width: 90%;
-   border-radius: 1rem;
+.single_pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.single_right{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.single_pic img {
+  width: 90%;
+  border-radius: 1rem;
 }
 
-.single_right h2{
-    font-size: 4.5rem;
+.single_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.single_right p{
-    font-size: 1.8rem;
-    line-height: 1.5;
-    color: grey;
+.single_right h2 {
+  font-size: 4.5rem;
 }
 
-.btns{
-    margin-top: 1.8rem;
+.single_right p {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: grey;
 }
 
+.btns {
+  margin-top: 1.8rem;
+}
 
-
-.butn{
-    padding: 0.8rem 2.5rem;
-    font-size: 1.8rem;
-    color: white;
-    background-color: #ff0000;
-    text-decoration: none;
-    border-radius: 2rem;
-    margin-right: 1rem;
+.butn {
+  padding: 0.8rem 2.5rem;
+  font-size: 1.8rem;
+  color: white;
+  background-color: #ff0000;
+  text-decoration: none;
+  border-radius: 2rem;
+  margin-right: 1rem;
 }
 
 /* ------------------------------------ */
 
-.product_carosel{
-    background: url('/images/shade.jpg') no-repeat;
-    background-position: center;
-    background-size: cover;
+.product_carosel {
+  background: url("/images/shade.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.product_carosel_cont{
-    padding: 3rem 0;
+.product_carosel_cont {
+  padding: 3rem 0;
 }
 
-.img_cont{
-    display: flex;
-    align-items:center;
-    justify-content: center;
+.img_cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.img_cont img{
-    height: 40rem;
+.img_cont img {
+  height: 40rem;
 }
 
 /* ----------------------------------- */
 
-.masale_list_cont{
-    padding: 3.5rem 0;
+.masale_list_cont {
+  padding: 3.5rem 0;
 }
 
-.masale_list_cont h1{
-    font-size: 4.5rem;
-    text-align: center;
-    margin-bottom: 2.5rem;
-    font-weight: 600;
+.masale_list_cont h1 {
+  font-size: 4.5rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-weight: 600;
 }
 
-.masala_cont{
-    /* width: 20rem; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 1.5rem;
+.masala_cont {
+  /* width: 20rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1.5rem;
 }
 
-.masala_link{
-    text-align: center;
-    text-decoration: none;
-    color: rgb(77, 76, 76);
-    margin: 1rem 0.6rem;
+.masala_link {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(77, 76, 76);
+  margin: 1rem 0.6rem;
 }
 
-.masala_link:hover{
-    color: red;
+.masala_link:hover {
+  color: red;
 }
 
-.masala_img img{
-    width: 27rem;
-    margin-bottom: 0.8rem;
-    border-radius: 0.4rem;
-    transition: all 0.2s ease-in-out;
-    
+.masala_img img {
+  width: 27rem;
+  margin-bottom: 0.8rem;
+  border-radius: 0.4rem;
+  transition: all 0.2s ease-in-out;
 }
 
-.masala_img img:hover{
-    transform: scale(1.05);
+.masala_img img:hover {
+  transform: scale(1.05);
 }
-
 
 /* -------------- footer -------------- */
 
-.footer{
-    background-color: #dd4c4c15;
+.footer {
+  background-color: #dd4c4c15;
 }
 
-.footer_container{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 2.5rem 0;
+.footer_container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2.5rem 0;
 }
 
-.foolter_ul h2, .third_ul h2{
-    font-size: 2.4rem;
-    color: navy;
-    margin-bottom: 1.5rem;
+.foolter_ul h2,
+.third_ul h2 {
+  font-size: 2.4rem;
+  color: navy;
+  margin-bottom: 1.5rem;
 }
 
-
-.foolter_ul li{
-    list-style: none;
+.foolter_ul li {
+  list-style: none;
 }
 
-
-.foolter_ul li a{
-   text-decoration: none;
-   font-size: 1.4rem;
-   color: rgb(80, 79, 79);
-   
+.foolter_ul li a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: rgb(80, 79, 79);
 }
 
-.footer_logo img{
-    width: 14rem;
+.footer_logo img {
+  width: 14rem;
 }
 
-.first{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.first h4{
-    font-size: 1.8rem;
-    margin-bottom: 0.6rem;
+.first h4 {
+  font-size: 1.8rem;
+  margin-bottom: 0.6rem;
 }
 
-.first p{
-    font-size: 1.2rem;
-    color: rgb(66, 64, 64);
+.first p {
+  font-size: 1.2rem;
+  color: rgb(66, 64, 64);
 }
 
-.third_ul li{
-    margin-bottom: 0.8rem;
-    font-size: 1.4rem;
-    list-style: none;
-    
+.third_ul li {
+  margin-bottom: 0.8rem;
+  font-size: 1.4rem;
+  list-style: none;
 }
 
-.third_ul li:hover,.foolter_ul li:hover{
-    text-decoration: underline;
+.third_ul li:hover,
+.foolter_ul li:hover {
+  text-decoration: underline;
 }
 
-.third_ul i{
-    margin-right: 1rem;
+.third_ul i {
+  margin-right: 1rem;
 }
 
-.third_ul li a,i{
-    color: #313030;
-    text-decoration: none;
-
+.third_ul li a,
+i {
+  color: #313030;
+  text-decoration: none;
 }
 
-.fourth h4{
-    font-size: 1.8rem;
-    margin-bottom: 1.5rem;
-    color: rgb(76, 74, 74);
+.fourth h4 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: rgb(76, 74, 74);
 }
 
-.fourth input{
-    padding: 0.8rem 1.5rem;
-    font-size: 1.7rem;
-    border-radius: 2.5rem;
-    border: none;
-    outline: none;
-    width: 75%;
-    margin-right: 1rem;
+.fourth input {
+  padding: 0.8rem 1.5rem;
+  font-size: 1.7rem;
+  border-radius: 2.5rem;
+  border: none;
+  outline: none;
+  width: 75%;
+  margin-right: 1rem;
 }
 
-.fourth i{
-    font-size: 2.5rem;
+.fourth i {
+  font-size: 2.5rem;
 }
 
-.fourth i:active{
-    transform: scale(1.08);
+.fourth i:active {
+  transform: scale(1.08);
 }
 
-.top{
-    position: fixed;
-    right: 2%;
-    bottom: 5%;
-    padding: 2rem;
-    border-radius: 50%;
-    background-color: rgba(189, 186, 186, 0.705);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 5rem;
-    height: 5rem;
-    text-decoration: none;
+.top {
+  position: fixed;
+  right: 2%;
+  bottom: 5%;
+  padding: 2rem;
+  border-radius: 50%;
+  background-color: rgba(189, 186, 186, 0.705);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  height: 5rem;
+  text-decoration: none;
+  opacity: 0.7;
 }
 
-.top i{
-    font-size: 3rem;
+.top i {
+  font-size: 3rem;
 }
-
-
-
 
 /* ------------------- media queries ------------ */
 
-@media(max-width:994px){
-    html{
-        font-size: 55%;
-    }
+@media (max-width: 994px) {
+  html {
+    font-size: 55%;
+  }
 
-    .single_pic img{
-        width: 100%;
-     }
+  .single_pic img {
+    width: 100%;
+  }
 
-    .single_right{
-        margin-top: 3rem;
-    }
+  .single_right {
+    margin-top: 3rem;
+  }
 
-    .first,.second,.third,.fourth{
-        margin-top: 1.2rem;
-    }
+  .first,
+  .second,
+  .third,
+  .fourth {
+    margin-top: 1.2rem;
+  }
 }
 
-@media(max-width:768px){
-    html{
-        font-size: 50%;
-    }
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
 }
 
-@media(max-width:576px){
-    html{
-        font-size: 45%;
-    }
+@media (max-width: 576px) {
+  html {
+    font-size: 45%;
+  }
 
-    .nav_container{
-        padding: 0.3rem 2rem;
-    }
+  .nav_container {
+    padding: 0.3rem 2rem;
+  }
 
-    .links i{
-        display: block;
-    }
+  .links i {
+    display: block;
+  }
 
-    .links ul{
-        display: none;
-    }
+  .links ul {
+    display: none;
+  }
 
-    .carousel-item img{
-        height: 40rem;
-    }
+  .carousel-item img {
+    height: 40rem;
+  }
 
-    .main_container h1{
-        font-size: 2.5rem;
-    }
+  .main_container h1 {
+    font-size: 2.5rem;
+  }
 
-    section,footer{
-        padding: 0 1.2rem;
-    }
+  section,
+  footer {
+    padding: 0 1.2rem;
+  }
 
-    .masala_img img{
-        width:100%
-        
-    }
+  .masala_img img {
+    width: 100%;
+  }
 
-    .masala_cont{
-        padding: unset;
-    }
+  .masala_cont {
+    padding: unset;
+  }
 
-    .footer_container{
-        flex-direction: column;
-        padding: 1.5rem 2rem;
-    }
+  .footer_container {
+    flex-direction: column;
+    padding: 1.5rem 2rem;
+  }
 
-    .foolter_ul h2, .third_ul h2{
-        font-size: 3.2rem;
-    }
+  .foolter_ul h2,
+  .third_ul h2 {
+    font-size: 3.2rem;
+  }
 
-    .foolter_ul li a{
-        font-size: 1.8rem;
-    }
+  .foolter_ul li a {
+    font-size: 1.8rem;
+  }
 
-    .third_ul li{
-        font-size: 1.8rem;
-    }
+  .third_ul li {
+    font-size: 1.8rem;
+  }
 
-    .first h4{
-        font-size: 2.2rem;
-    }
+  .first h4 {
+    font-size: 2.2rem;
+  }
 
-    .first p{
-        font-size: 1.5rem;
-    }
+  .first p {
+    font-size: 1.5rem;
+  }
 
-    .first,.second,.third,.fourth{
-        margin-top: 1.8rem;
-    }
+  .first,
+  .second,
+  .third,
+  .fourth {
+    margin-top: 1.8rem;
+  }
 
-    .fourth h4{
-        font-size: 2rem;
-    }
+  .fourth h4 {
+    font-size: 2rem;
+  }
 
-    .fourth input{
-        padding: 1rem 1.5rem;
-        font-size: 2.2rem;
-    }
+  .fourth input {
+    padding: 1rem 1.5rem;
+    font-size: 2.2rem;
+  }
 
-    .masala_link{
-        margin: 1.5rem 0.6rem;
-    }
-    
-    .masala_link h3{
-        font-size: 3rem;
-    }
+  .masala_link {
+    margin: 1.5rem 0.6rem;
+  }
 
-    .single_right p{
-        font-size: 2rem;
-        text-align: justify;
-    }
+  .masala_link h3 {
+    font-size: 3rem;
+  }
 
-    .cards h3{
-        font-size: 2.2rem;
-    }
-    
-    .cards p{
-        font-size: 1.8rem;
-    }
+  .single_right p {
+    font-size: 2rem;
+    text-align: justify;
+  }
 
-    .card_container{
-        padding: 1.8rem 2.5rem;
-    }
+  .cards h3 {
+    font-size: 2.2rem;
+  }
+
+  .cards p {
+    font-size: 1.8rem;
+  }
+
+  .card_container {
+    padding: 1.8rem 2.5rem;
+  }
 }
